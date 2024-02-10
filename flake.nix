@@ -8,9 +8,9 @@
     packages.x86_64-linux.thorium = let
       pkgs = import nixpkgs { system = "x86_64-linux"; };
       name = "thorium";
-      version = "117.0.5938.157 - 53";
+      version = "120.0.6099.235 - 55";
       src = pkgs.fetchurl {
-        url = "https://github.com/Alex313031/thorium/releases/download/M117.0.5938.157/Thorium_Browser_117.0.5938.157_x64.AppImage";
+        url = "https://github.com/Alex313031/thorium/releases/download/M120.0.6099.235/Thorium_Browser_120.0.6099.235_x64.AppImage";
         sha256 = "sha256-dlfClBbwSkQg4stKZdSgNg3EFsWksoI21cxRG5SMrOM=";
       };
       appimageContents = pkgs.appimageTools.extractType2 { inherit name src; };
@@ -35,9 +35,9 @@
     packages.aarch64-linux.thorium = let
       pkgs = import nixpkgs { system = "aarch64-linux"; };
       name = "thorium";
-      version = "117.0.5938.157 - 53";
+      version = "120.0.6099.235 - 5";
       src = pkgs.fetchurl {
-        url = "https://github.com/Alex313031/Thorium-Raspi/releases/download/M117.0.5938.157/Thorium_Browser_117.0.5938.157_arm64.AppImage";
+        url = "https://github.com/Alex313031/Thorium-Raspi/releases/download/M120.0.6099.235/Thorium_Browser_120.0.6099.235_arm64.AppImageZZ";
         sha256 = "";
       };
       appimageContents = pkgs.appimageTools.extractType2 { inherit name src; };
